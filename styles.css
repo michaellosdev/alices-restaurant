@@ -1,3 +1,116 @@
-img {
-    width: 100px;
+body {
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.menu,
+.contact {
+    background-color: rgb(255, 255, 255);
+	color: rgb(0,0,0);
+}
+
+.testimonials,
+.info,
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/* panels styling */
+
+.landing {
+    height: 90vh;
+    background-image: url(images/table-food.png);
+    background-size: cover;
+    overflow:auto;
+
+}
+
+.landing .sign {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5em;
+    background-color: rgba(0, 0, 0, 0.75);
+    color:#ffffff;
+    padding: 1em;
+    position: relative;
+    
+}
+
+.landing h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+.landing p {
+    font-family: "Brush Script MT";
+    font-size: 3em;
+}
+
+.testimonials div {
+    width: 30%;
+    display: inline-block;
+}
+
+.testimonials img {
+    width: 100%;
+    border-radius: 100%;
+    width: 40%;
+}
+
+.testimonial{
+    margin: 2em 0;
+}
+
+.testimonial .name {
+	font-weight: bold;
+}
+
+.testimonial .review {
+	font-style: italic;
+}
+
+.menu h2 {
+	text-transform: uppercase;
+}
+
+.menu ol {
+	list-style-type: none;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.info > div {
+	width: 30%;
+	display: inline-block;
+}
+
+.contact {
+	padding: 3em;
+	text-align: initial;
+}
+
+.contact input,
+.contact textarea {
+	border: 3px solid black;
+	margin: .5em;
+}
+
+.contact div {
+	margin: 0 auto;
+	width: 40%;
+}
+
+
+footer {
+	padding: 1em;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+
+label {
+    width:180px;
+    text-align:right;
+    padding-right:10px;
 }
